@@ -82,8 +82,8 @@ def setup_hook_sign_request(request: dict, variables: dict = None, env: dict = N
           - name: 调用需要签名的接口
             setup_hooks:
               - ${setup_hook_sign_request($request)}
-            request:
-              method: POST
+              testtesttest
+              qweqweqweqwe
               path: /api/secure/endpoint
 
     参数:
